@@ -1,0 +1,7 @@
+# Git ignore rules for virtual environments, build artefacts and local config.
+# TODO: add ignore patterns such as:
+#   __pycache__/
+#   *.pyc
+#   venv/
+#   node_modules/
+#   .env

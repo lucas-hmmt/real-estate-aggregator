@@ -1,0 +1,22 @@
+/* Extra navbar-specific tweaks.
+   Most of the styling already lives in global.css under .navbar* classes,
+   so this file can stay minimal.
+*/
+
+.navbar {
+  /* You can override or extend global styles here if needed */
+}
+
+.navbar-inner {
+  /* Example: slightly tighter vertical padding on very small screens */
+}
+
+@media (max-width: 480px) {
+  .navbar-inner {
+    padding-inline: 12px;
+  }
+
+  .navbar-logo-text {
+    font-size: 14px;
+  }
+}
